@@ -16,7 +16,6 @@ class LoginViewController: UIViewController {
     private var loginbutton: UIButton!
     private var unsuccessfulLogin: UILabel!
     
-    private var ds = DataService()
     private var networkService = NetworkService()
     
     let relativeFontConstant:CGFloat = 0.05
@@ -49,6 +48,12 @@ class LoginViewController: UIViewController {
         appNameLabel.textAlignment = .center
         appNameLabel.font = UIFont(name: "SourceSansPro-Black", size: 50)
         appNameLabel.textColor = .white
+        appNameLabel.alpha = 0
+        self.appNameLabel.transform = CGAffineTransform(scaleX: 0, y: 0)
+        
+        
+        
+        
 
         emailTextfield = UITextField()
         emailTextfield.backgroundColor = .systemGray
@@ -64,6 +69,7 @@ class LoginViewController: UIViewController {
         emailTextfield.attributedPlaceholder = NSAttributedString(string: "Email",
                                      attributes: [NSAttributedString.Key.foregroundColor: UIColor.white])
         emailTextfield.textColor = .white
+        emailTextfield.alpha = 0
         
         emailTextfield.addTarget(self, action: #selector(hideLoginMessageAction), for: .editingDidBegin)
         
@@ -80,6 +86,7 @@ class LoginViewController: UIViewController {
                                      attributes: [NSAttributedString.Key.foregroundColor: UIColor.white])
         passwordTextField.isSecureTextEntry = true
         passwordTextField.textColor = .white
+        passwordTextField.alpha = 0
         
         passwordTextField.addTarget(self, action: #selector(hideLoginMessageAction), for: .editingDidBegin)
 
@@ -91,6 +98,7 @@ class LoginViewController: UIViewController {
         loginbutton.layer.cornerRadius = 22.0
         
         loginbutton.addTarget(self, action: #selector(loginAction), for: .touchUpInside)
+        loginbutton.alpha = 0
         
         unsuccessfulLogin = UILabel()
         unsuccessfulLogin.backgroundColor = UIColor(red: 0.455, green: 0.310, blue: 0.639, alpha: 0)
@@ -114,20 +122,75 @@ class LoginViewController: UIViewController {
         //appNameLabel.autoSetDimensions(to: CGSize(width: 140, height: 30))
         
         emailTextfield.autoCenterInSuperview()
+        emailTextfield.autoAlignAxis(toSuperviewAxis: .vertical)
         // emailTextfield.autoSetDimensions(to: CGSize(width: UIScreen.main.bounds.size.width * 0.8, height: 50))
         emailTextfield.autoMatch(.width, to: .width, of: view, withMultiplier: 0.8)
         emailTextfield.autoSetDimension(.height, toSize: 50)
         
-        passwordTextField.autoAlignAxis(.vertical, toSameAxisOf: emailTextfield)
+       passwordTextField.autoAlignAxis(toSuperviewAxis: .vertical)
         passwordTextField.autoPinEdge(.top, to: .bottom, of: emailTextfield, withOffset: 20)
         passwordTextField.autoSetDimensions(to: CGSize(width: UIScreen.main.bounds.size.width * 0.8, height: 50))
         
-        loginbutton.autoAlignAxis(.vertical, toSameAxisOf: passwordTextField)
+        
+        
+        
+        loginbutton.autoAlignAxis(toSuperviewAxis: .vertical)
         loginbutton.autoPinEdge(.top, to: .bottom, of: passwordTextField, withOffset: 20)
         loginbutton.autoSetDimensions(to: CGSize(width: UIScreen.main.bounds.size.width * 0.8, height: 50))
         
         unsuccessfulLogin.autoPinEdge(.top, to: .bottom, of: loginbutton, withOffset: 10)
         unsuccessfulLogin.autoAlignAxis(toSuperviewAxis: .vertical)
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        emailTextfield.transform = emailTextfield.transform.translatedBy(x: -view.frame.width, y: 0)
+        emailTextfield.isHidden = false
+        passwordTextField.transform = emailTextfield.transform.translatedBy(x: -view.frame.width, y: 0)
+        loginbutton.transform = emailTextfield.transform.translatedBy(x: -view.frame.width, y: 0)
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        UIView.animate(
+            withDuration: 1.5,
+            delay: 0.0,
+            options: .curveEaseOut,
+            animations: {
+                self.appNameLabel.transform = CGAffineTransform(scaleX: 1, y: 1)
+                self.appNameLabel.alpha = 1
+            }
+        )
+        
+        UIView.animate(
+            withDuration: 1.5,
+            delay: 0.0,
+            options: .curveEaseOut,
+                animations: {
+                    self.emailTextfield.transform = .identity
+                    self.emailTextfield.alpha = 1
+                })
+        
+        UIView.animate(
+            withDuration: 1.5,
+                delay: 0.25,
+                options: .curveEaseOut,
+                animations: {
+                    self.passwordTextField.transform = .identity
+                    self.passwordTextField.alpha = 1
+                })
+        
+        UIView.animate(
+            withDuration: 1.5,
+                delay: 0.50,
+                options: .curveEaseOut,
+                animations: {
+                    self.loginbutton.transform = .identity
+                    self.loginbutton.alpha = 1
+                })
+        
     }
     
     @objc
@@ -156,9 +219,54 @@ class LoginViewController: UIViewController {
                 let defaults = UserDefaults.standard
                 defaults.setValue(value.id, forKey: "id")
                 defaults.setValue(value.token, forKey: "token")
-                self.navigationController?.popToRootViewController(animated: true)
-                self.navigationController?.popViewController(animated: true)
-                self.navigationController?.pushViewController(self.createTabBarViewController(), animated: true)
+                
+                UIView.animate(
+                    withDuration: 1.5,
+                    delay: 0.0,
+                    options: .curveEaseOut,
+                    animations: {
+                        self.appNameLabel.transform = self.appNameLabel.transform.translatedBy(x: 0, y: -self.view.frame.height)
+                    }
+                )
+                
+                UIView.animate(
+                    withDuration: 1.5,
+                    delay: 0.25,
+                    options: .curveEaseOut,
+                    animations: {
+                        self.emailTextfield.transform = self.emailTextfield.transform.translatedBy(x: 0, y: -self.view.frame.height)
+                    }
+                )
+                
+                UIView.animate(
+                    withDuration: 1.5,
+                    delay: 0.50,
+                    options: .curveEaseOut,
+                    animations: {
+                        self.passwordTextField.transform = self.emailTextfield.transform.translatedBy(x: 0, y: -self.view.frame.height)
+                    }
+                )
+                
+                UIView.animate(
+                    withDuration: 1.5,
+                    delay: 0.75,
+                    options: .curveEaseOut,
+                    animations: {
+                        self.loginbutton.transform = self.emailTextfield.transform.translatedBy(x: 0, y: -self.view.frame.height)
+                    }
+                )
+                
+                DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+                    self.emailTextfield.isHidden = true
+                    self.emailTextfield.transform = self.emailTextfield.transform.translatedBy(x: 0, y: self.view.frame.height)
+                    
+                    self.appNameLabel.alpha = 0
+                    self.appNameLabel.transform = self.appNameLabel.transform.translatedBy(x: 0, y: self.view.frame.height)
+                    
+                    self.navigationController?.popToRootViewController(animated: true)
+                    self.navigationController?.popViewController(animated: true)
+                    self.navigationController?.pushViewController(self.createTabBarViewController(), animated: true)
+                }
             }
         }
     }

@@ -1,20 +1,24 @@
 PODS:
   - PureLayout (3.1.8)
+  - Reachability (3.2)
   - SGSegmentedProgressBarLibrary (0.0.5)
 
 DEPENDENCIES:
   - PureLayout
+  - Reachability
   - SGSegmentedProgressBarLibrary
 
 SPEC REPOS:
   trunk:
     - PureLayout
+    - Reachability
     - SGSegmentedProgressBarLibrary
 
 SPEC CHECKSUMS:
   PureLayout: a4afb3d79dd958564ce33d22c89f407280d8e6a8
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SGSegmentedProgressBarLibrary: 2b7f2dc518cd19c5d7d42ae6a8e9ec5610c334f1
 
-PODFILE CHECKSUM: e74ce2b2324ad0920821d32e82c76f36bc9fcb00
+PODFILE CHECKSUM: 75f4ba1225497a5fd6f1bc53606e2fd3efb68701
 
 COCOAPODS: 1.10.1

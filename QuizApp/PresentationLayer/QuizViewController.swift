@@ -7,7 +7,6 @@
 
 import SwiftUI
 import PureLayout
-import SGSegmentedProgressBarLibrary
 
 class QuizViewController: UIViewController {
     
@@ -235,33 +234,3 @@ class QuizViewController: UIViewController {
 }
 
 
-extension QuizViewController: SGSegmentedProgressBarDelegate, SGSegmentedProgressBarDataSource {
-    
-    func segmentedProgressBarFinished(finishedIndex: Int, isLastIndex: Bool) {
-        print("progress bar")
-    }
-    
-    var numberOfSegments: Int {
-        return 8
-    }
-    
-    var segmentDuration: TimeInterval {
-        return 5
-    }
-    
-    var paddingBetweenSegments: CGFloat {
-        return 5
-    }
-    
-    var trackColor: UIColor {
-        return UIColor.white.withAlphaComponent(0.3)
-    }
-    
-    var progressColor: UIColor {
-        return UIColor.red
-    }
-    
-    var roundCornerType: SGCornerType {
-        return .roundCornerBar(cornerRadious: 5)
-    }
-}
