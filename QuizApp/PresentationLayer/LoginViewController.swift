@@ -16,7 +16,6 @@ class LoginViewController: UIViewController {
     private var loginbutton: UIButton!
     private var unsuccessfulLogin: UILabel!
     
-    private var ds = DataService()
     private var networkService = NetworkService()
     
     let relativeFontConstant:CGFloat = 0.05

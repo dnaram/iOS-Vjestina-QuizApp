@@ -7,87 +7,111 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03222170E9B237A14107DFB6FD61CFA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		225A81AF00DE7A3ADFE04FF46934CF18 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1E521B3A9017834C2B08B8A27A514F /* Extensions.swift */; };
-		29F477B426E97AC81C2D867965814EE7 /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C37EF2B0AA335359C22EB508A26D795 /* PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		36F5200F9EE07293CD3FF527971A9BCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		3FEA79AB938D263EDD0576109321847D /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = CC38ABC680CD6684173EDC5F20E80389 /* NSArray+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		419FFFF79E9A90274BCEED1CB6A06AE3 /* SGSegmentedProgressBarProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6226251B7F4563DA6A4FA9ED871E2F /* SGSegmentedProgressBarProtocols.swift */; };
-		516464DB7004848131A1A280E725BB30 /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = C93D9869906488D09BB46DA6A43433E3 /* NSLayoutConstraint+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A2E8047ABA614C459F199BCE29410BC /* Pods-QuizApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 454A3886A6CEF6586061506698844C74 /* Pods-QuizApp-dummy.m */; };
-		71FC3D9B5AB85F25B264823B4A0DA652 /* Pods-QuizApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4969DAB26BF70CAAA70ECF3BC7BEADB1 /* Pods-QuizApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90E11860B6F9BDC73E00A1AF0116A0BA /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FE710D04928D44000DD31AAFDC39152B /* ALView+PureLayout.m */; };
-		981D106E8CA2FEC85754481388E2F61A /* SGSegmentedProgressBarLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BA27368E5657D203C3352F264DF7D2 /* SGSegmentedProgressBarLibrary-dummy.m */; };
-		AE028A669BDCC596930B9CD7B34C231D /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 72ECCFEE39B05235B5EBF5B601DC22BB /* NSArray+PureLayout.m */; };
-		C083E0C1A52728A974A958C249DFBFCC /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BB2B3F4AA4B6381C7D4D87E908F4738 /* PureLayout+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CAEF5A694258EA759B5AC90CBEB72CCC /* PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86669E79FCAB1257DEFDAC77AF05D671 /* PureLayout-dummy.m */; };
-		CE4A4613E048E61DCDEB6B4C6AA5487E /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F5E437072DF5671B06FEA4DF914D74D /* PureLayoutDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CFCF459361F16ED33F8B01ADB01199E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		D64335AFA176E95D8A1892337EDB9819 /* PureLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13A84C59DB8482C32948BA38F531901A /* PureLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DBF45D59546F58E4F8118B65DBC9B0F4 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BAF1826525577AF9791AA30B7A9D8F /* NSLayoutConstraint+PureLayout.m */; };
-		EC710A58FA94E8980912BACB2AF2CCDA /* SGSegmentedProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BDB36BFE250F027D58F8A566EA0C7C /* SGSegmentedProgressBar.swift */; };
-		EE3903AC92477CAE5D7295E0C04082C0 /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 383ED008F18C38B2B91DC2D733100C03 /* ALView+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE8602B4CFD5760B21CFFE1B9A21B119 /* SGSegmentedProgressBarLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1FB7571E59896FB297006DF50D32904 /* SGSegmentedProgressBarLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03222170E9B237A14107DFB6FD61CFA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30453446C5310EA114B978294858C9A5 /* Foundation.framework */; };
+		165816E10F031A2BB600A35ACB23C61B /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = B1AD45A27B3E5CA03FA5D15810A0FA44 /* Reachability.m */; };
+		1FDF6FD7CF96B315FF19342F739EE607 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DFBC05B473F80FD3F66C77B0495E6A1 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		225A81AF00DE7A3ADFE04FF46934CF18 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A729D0FEDB9E6F053FAAFF862BA569 /* Extensions.swift */; };
+		29F477B426E97AC81C2D867965814EE7 /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 670CE8FCD69B32D113D9409EB671E0FF /* PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C01184A43CD845435A8411017C786B8 /* Pods-QuizApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4969DAB26BF70CAAA70ECF3BC7BEADB1 /* Pods-QuizApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38D84D9987D58879019DF209E7D189A0 /* Pods-QuizApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 454A3886A6CEF6586061506698844C74 /* Pods-QuizApp-dummy.m */; };
+		3FEA79AB938D263EDD0576109321847D /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 590361D43B3B98858E92166A5ABBA426 /* NSArray+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		419FFFF79E9A90274BCEED1CB6A06AE3 /* SGSegmentedProgressBarProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A79A45FDE08A61F2B2AAFADB0115C1B /* SGSegmentedProgressBarProtocols.swift */; };
+		516464DB7004848131A1A280E725BB30 /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 763FC415E70747528005462314C207C5 /* NSLayoutConstraint+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D614BBA844FCC1AED0AA36E5A819050 /* Reachability-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67C1DEB6940AFF42390EDDB71240C5E6 /* Reachability-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90E11860B6F9BDC73E00A1AF0116A0BA /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF6D077023A29B78D3C811C58C5448C /* ALView+PureLayout.m */; };
+		92666F5E4C7D1E283EE3C703E69D5CB0 /* Reachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8790A1F5E93827EAB2E7AA27A5B64B0 /* Reachability-dummy.m */; };
+		981D106E8CA2FEC85754481388E2F61A /* SGSegmentedProgressBarLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7A957FE01B778D9B4E8E59727D56AE /* SGSegmentedProgressBarLibrary-dummy.m */; };
+		A38A38F73B1446F7DFE945F1A3847127 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30453446C5310EA114B978294858C9A5 /* Foundation.framework */; };
+		A9B7A482E0409D0437AEE26B7F625069 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DE96DC511BD1CE643E8E9A8CE72374 /* SystemConfiguration.framework */; };
+		AE028A669BDCC596930B9CD7B34C231D /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4D3B49A9D3E7157EB9DBEAB6584902 /* NSArray+PureLayout.m */; };
+		C083E0C1A52728A974A958C249DFBFCC /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C0A75C5B08365EB2027AE0CE22D0059 /* PureLayout+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAEF5A694258EA759B5AC90CBEB72CCC /* PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D0C8716AE7D203D745C9BF99F573CE /* PureLayout-dummy.m */; };
+		CE4A4613E048E61DCDEB6B4C6AA5487E /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C928D59B98627D9A3580268F72E15D5 /* PureLayoutDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFCF459361F16ED33F8B01ADB01199E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30453446C5310EA114B978294858C9A5 /* Foundation.framework */; };
+		D64335AFA176E95D8A1892337EDB9819 /* PureLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A573C915EF697477DBEB173BD68DE73 /* PureLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBF45D59546F58E4F8118B65DBC9B0F4 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4B04263CC27F38543493689C84ACCD /* NSLayoutConstraint+PureLayout.m */; };
+		E1D23E25BE4389406503782C01512386 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30453446C5310EA114B978294858C9A5 /* Foundation.framework */; };
+		EC710A58FA94E8980912BACB2AF2CCDA /* SGSegmentedProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED599C5DCE09303E90643ACCE772CBAB /* SGSegmentedProgressBar.swift */; };
+		EE3903AC92477CAE5D7295E0C04082C0 /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 1016B4D27C723F59A0BA81D8C106A197 /* ALView+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8602B4CFD5760B21CFFE1B9A21B119 /* SGSegmentedProgressBarLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F44989626A701397C178679588E9B2F2 /* SGSegmentedProgressBarLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		948F2EFEE9CB3F2E32C0C5B5A3A7D7EE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 06F5CDD6235E25837519792853B145A1;
-			remoteInfo = PureLayout;
-		};
-		EF02454DE8255BA2C580C092B8198C6F /* PBXContainerItemProxy */ = {
+		1F1CDB7FA1B6D0B2E3A5C9F3181DB189 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A39044569D9678AB9A64F9E4139C45B7;
 			remoteInfo = SGSegmentedProgressBarLibrary;
 		};
+		696DF52A6F00321B280D84C5E3CEEB44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAA047C0F5E4106F3904E8497FA17F97;
+			remoteInfo = Reachability;
+		};
+		90E7B940663128C11028FE3FAAD4ECA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06F5CDD6235E25837519792853B145A1;
+			remoteInfo = PureLayout;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0BB2B3F4AA4B6381C7D4D87E908F4738 /* PureLayout+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "PureLayout/PureLayout/PureLayout+Internal.h"; sourceTree = "<group>"; };
+		01615F6E192DEA59D431EF779C05760E /* SGSegmentedProgressBarLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SGSegmentedProgressBarLibrary.release.xcconfig; sourceTree = "<group>"; };
+		0767CE3F41E24FDBAA25CC07D71669C7 /* SGSegmentedProgressBarLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SGSegmentedProgressBarLibrary.debug.xcconfig; sourceTree = "<group>"; };
+		1016B4D27C723F59A0BA81D8C106A197 /* ALView+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALView+PureLayout.h"; path = "PureLayout/PureLayout/ALView+PureLayout.h"; sourceTree = "<group>"; };
 		1017E0DBED64F7C37A9F49909E6E16EB /* Pods-QuizApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuizApp.release.xcconfig"; sourceTree = "<group>"; };
-		13A84C59DB8482C32948BA38F531901A /* PureLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-umbrella.h"; sourceTree = "<group>"; };
-		20BA27368E5657D203C3352F264DF7D2 /* SGSegmentedProgressBarLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SGSegmentedProgressBarLibrary-dummy.m"; sourceTree = "<group>"; };
+		167D7BE7BFAEB1FDEC3D5DBEA4201985 /* SGSegmentedProgressBarLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SGSegmentedProgressBarLibrary.modulemap; sourceTree = "<group>"; };
+		18DE96DC511BD1CE643E8E9A8CE72374 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		1A79A45FDE08A61F2B2AAFADB0115C1B /* SGSegmentedProgressBarProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SGSegmentedProgressBarProtocols.swift; path = SGSegmentedProgressBarLibrary/SGSegmentedProgressBarLibrary/SGSegmentedProgressBarProtocols.swift; sourceTree = "<group>"; };
+		219A783FF962E7939E9A8EB8E6C04CA7 /* Reachability.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Reachability.debug.xcconfig; sourceTree = "<group>"; };
+		21D0C8716AE7D203D745C9BF99F573CE /* PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PureLayout-dummy.m"; sourceTree = "<group>"; };
+		22CCF5E2693EB304CD76E2C25CAE531C /* PureLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PureLayout.modulemap; sourceTree = "<group>"; };
 		2392A3758705DC2E177D903DE43E6247 /* SGSegmentedProgressBarLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SGSegmentedProgressBarLibrary.framework; path = SGSegmentedProgressBarLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2415DEA59F6EB1B101FFD286F196C2B3 /* Pods-QuizApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuizApp.debug.xcconfig"; sourceTree = "<group>"; };
 		2508BE4AB5C04D787CAA8AE83BA0A7B6 /* Pods-QuizApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QuizApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2F1E521B3A9017834C2B08B8A27A514F /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = SGSegmentedProgressBarLibrary/SGSegmentedProgressBarLibrary/Extensions.swift; sourceTree = "<group>"; };
+		289214526705D9EAB48D6B5E93B768C2 /* Reachability.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Reachability.release.xcconfig; sourceTree = "<group>"; };
 		2F4243715465A78BB63A7FF644080D58 /* Pods-QuizApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QuizApp-Info.plist"; sourceTree = "<group>"; };
-		3265662C130AE66358BEC86BF6BD1928 /* PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-prefix.pch"; sourceTree = "<group>"; };
-		383ED008F18C38B2B91DC2D733100C03 /* ALView+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALView+PureLayout.h"; path = "PureLayout/PureLayout/ALView+PureLayout.h"; sourceTree = "<group>"; };
+		30453446C5310EA114B978294858C9A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3A573C915EF697477DBEB173BD68DE73 /* PureLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-umbrella.h"; sourceTree = "<group>"; };
 		3F22EF2F443582196B9FAF77F302AE8F /* Pods-QuizApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QuizApp.modulemap"; sourceTree = "<group>"; };
+		400FF55D0451E7A8F33A3D0D3E11C1B9 /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Reachability.framework; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42A729D0FEDB9E6F053FAAFF862BA569 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = SGSegmentedProgressBarLibrary/SGSegmentedProgressBarLibrary/Extensions.swift; sourceTree = "<group>"; };
 		454A3886A6CEF6586061506698844C74 /* Pods-QuizApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QuizApp-dummy.m"; sourceTree = "<group>"; };
 		4969DAB26BF70CAAA70ECF3BC7BEADB1 /* Pods-QuizApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QuizApp-umbrella.h"; sourceTree = "<group>"; };
-		4F5E437072DF5671B06FEA4DF914D74D /* PureLayoutDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = PureLayout/PureLayout/PureLayoutDefines.h; sourceTree = "<group>"; };
+		4C0A75C5B08365EB2027AE0CE22D0059 /* PureLayout+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "PureLayout/PureLayout/PureLayout+Internal.h"; sourceTree = "<group>"; };
 		532564DD37E6D3BF9BAC19C2EC6F5AF3 /* Pods_QuizApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QuizApp.framework; path = "Pods-QuizApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C37EF2B0AA335359C22EB508A26D795 /* PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayout.h; path = PureLayout/PureLayout/PureLayout.h; sourceTree = "<group>"; };
-		6F4B1A5FAC48296BEE9A9E4B33239626 /* PureLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureLayout.debug.xcconfig; sourceTree = "<group>"; };
-		709D09A0BF4536435B780D96418B79BF /* SGSegmentedProgressBarLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SGSegmentedProgressBarLibrary.debug.xcconfig; sourceTree = "<group>"; };
+		590361D43B3B98858E92166A5ABBA426 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PureLayout.h"; path = "PureLayout/PureLayout/NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		5A4D3B49A9D3E7157EB9DBEAB6584902 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PureLayout.m"; path = "PureLayout/PureLayout/NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		670CE8FCD69B32D113D9409EB671E0FF /* PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayout.h; path = PureLayout/PureLayout/PureLayout.h; sourceTree = "<group>"; };
+		67C1DEB6940AFF42390EDDB71240C5E6 /* Reachability-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-umbrella.h"; sourceTree = "<group>"; };
+		6C928D59B98627D9A3580268F72E15D5 /* PureLayoutDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = PureLayout/PureLayout/PureLayoutDefines.h; sourceTree = "<group>"; };
 		712E2A7E516FAF73D974A7856A266F48 /* Pods-QuizApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QuizApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		72ECCFEE39B05235B5EBF5B601DC22BB /* NSArray+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PureLayout.m"; path = "PureLayout/PureLayout/NSArray+PureLayout.m"; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		79BDB36BFE250F027D58F8A566EA0C7C /* SGSegmentedProgressBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SGSegmentedProgressBar.swift; path = SGSegmentedProgressBarLibrary/SGSegmentedProgressBarLibrary/SGSegmentedProgressBar.swift; sourceTree = "<group>"; };
-		86669E79FCAB1257DEFDAC77AF05D671 /* PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PureLayout-dummy.m"; sourceTree = "<group>"; };
-		9A5A6C91944F957003EE36AF88BCF35C /* PureLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PureLayout.modulemap; sourceTree = "<group>"; };
+		763FC415E70747528005462314C207C5 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		7E40C58A55A6B81B16D655C7CEC6C3C1 /* Reachability-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F6226251B7F4563DA6A4FA9ED871E2F /* SGSegmentedProgressBarProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SGSegmentedProgressBarProtocols.swift; path = SGSegmentedProgressBarLibrary/SGSegmentedProgressBarLibrary/SGSegmentedProgressBarProtocols.swift; sourceTree = "<group>"; };
-		A09DB4AD323C4934948082E458AA0F8F /* SGSegmentedProgressBarLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGSegmentedProgressBarLibrary-prefix.pch"; sourceTree = "<group>"; };
-		A1FB7571E59896FB297006DF50D32904 /* SGSegmentedProgressBarLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGSegmentedProgressBarLibrary-umbrella.h"; sourceTree = "<group>"; };
-		B8BAF1826525577AF9791AA30B7A9D8F /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
-		BFE73F697F4F34BD529DF485B0C8E80E /* SGSegmentedProgressBarLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SGSegmentedProgressBarLibrary-Info.plist"; sourceTree = "<group>"; };
-		C8259BA69DF857F431438626BCDC83E6 /* PureLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PureLayout-Info.plist"; sourceTree = "<group>"; };
-		C93D9869906488D09BB46DA6A43433E3 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
-		CC38ABC680CD6684173EDC5F20E80389 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PureLayout.h"; path = "PureLayout/PureLayout/NSArray+PureLayout.h"; sourceTree = "<group>"; };
-		D0A33A93FAF92190F87A8FA48B32555A /* PureLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureLayout.release.xcconfig; sourceTree = "<group>"; };
-		DAC97143C499BBC49CA28E26BD145F4C /* SGSegmentedProgressBarLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SGSegmentedProgressBarLibrary.modulemap; sourceTree = "<group>"; };
+		9DFBC05B473F80FD3F66C77B0495E6A1 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		9EF6D077023A29B78D3C811C58C5448C /* ALView+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALView+PureLayout.m"; path = "PureLayout/PureLayout/ALView+PureLayout.m"; sourceTree = "<group>"; };
+		AADD67FBBAF569A6F2A9B78E6F2D40A9 /* Reachability.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Reachability.modulemap; sourceTree = "<group>"; };
+		AE7A957FE01B778D9B4E8E59727D56AE /* SGSegmentedProgressBarLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SGSegmentedProgressBarLibrary-dummy.m"; sourceTree = "<group>"; };
+		AF4B04263CC27F38543493689C84ACCD /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		B1AD45A27B3E5CA03FA5D15810A0FA44 /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		B76FFE12239B77608DBAD68F195F7779 /* PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-prefix.pch"; sourceTree = "<group>"; };
+		B8790A1F5E93827EAB2E7AA27A5B64B0 /* Reachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Reachability-dummy.m"; sourceTree = "<group>"; };
+		D26A102F2F3D707A1FEBDA9A5BFA7315 /* SGSegmentedProgressBarLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SGSegmentedProgressBarLibrary-Info.plist"; sourceTree = "<group>"; };
+		D91FBEB7B2398D0DDF6632716780FECB /* SGSegmentedProgressBarLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGSegmentedProgressBarLibrary-prefix.pch"; sourceTree = "<group>"; };
+		DA8094D3E93AE9238F7BFCBD748E7FFF /* PureLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureLayout.release.xcconfig; sourceTree = "<group>"; };
+		DCC0A9771D29AAB3C03A5C234570D202 /* Reachability-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Reachability-Info.plist"; sourceTree = "<group>"; };
 		E4E7B3DD46ABB0DBBB56BD5AE90E4911 /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PureLayout.framework; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7DCC38D05701870DE79B05EB75F03D6 /* Pods-QuizApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuizApp-frameworks.sh"; sourceTree = "<group>"; };
-		FE710D04928D44000DD31AAFDC39152B /* ALView+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALView+PureLayout.m"; path = "PureLayout/PureLayout/ALView+PureLayout.m"; sourceTree = "<group>"; };
-		FF5A54A87436C5FC98D7805F20C1FF28 /* SGSegmentedProgressBarLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SGSegmentedProgressBarLibrary.release.xcconfig; sourceTree = "<group>"; };
+		ED599C5DCE09303E90643ACCE772CBAB /* SGSegmentedProgressBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SGSegmentedProgressBar.swift; path = SGSegmentedProgressBarLibrary/SGSegmentedProgressBarLibrary/SGSegmentedProgressBar.swift; sourceTree = "<group>"; };
+		EE261A5E3B300E20E5A1C427B9B54C91 /* PureLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PureLayout-Info.plist"; sourceTree = "<group>"; };
+		F1F1E63A89B2337EC866A83B37ED37DA /* PureLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureLayout.debug.xcconfig; sourceTree = "<group>"; };
+		F44989626A701397C178679588E9B2F2 /* SGSegmentedProgressBarLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGSegmentedProgressBarLibrary-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,11 +131,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		995AE398D6463F60D3C6FEB1A86E5D74 /* Frameworks */ = {
+		EF0C5D5FF1984CCCEF5772CBFCEA4716 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36F5200F9EE07293CD3FF527971A9BCF /* Foundation.framework in Frameworks */,
+				A38A38F73B1446F7DFE945F1A3847127 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8E2491E56FE9C8E833648DF3B4AD9DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1D23E25BE4389406503782C01512386 /* Foundation.framework in Frameworks */,
+				A9B7A482E0409D0437AEE26B7F625069 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,110 +168,139 @@
 			path = "Target Support Files/Pods-QuizApp";
 			sourceTree = "<group>";
 		};
-		1C79057081E652EEE40255476A33461C /* Support Files */ = {
+		0B046C0F84E754C78B6CAEFE680E140E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DAC97143C499BBC49CA28E26BD145F4C /* SGSegmentedProgressBarLibrary.modulemap */,
-				20BA27368E5657D203C3352F264DF7D2 /* SGSegmentedProgressBarLibrary-dummy.m */,
-				BFE73F697F4F34BD529DF485B0C8E80E /* SGSegmentedProgressBarLibrary-Info.plist */,
-				A09DB4AD323C4934948082E458AA0F8F /* SGSegmentedProgressBarLibrary-prefix.pch */,
-				A1FB7571E59896FB297006DF50D32904 /* SGSegmentedProgressBarLibrary-umbrella.h */,
-				709D09A0BF4536435B780D96418B79BF /* SGSegmentedProgressBarLibrary.debug.xcconfig */,
-				FF5A54A87436C5FC98D7805F20C1FF28 /* SGSegmentedProgressBarLibrary.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SGSegmentedProgressBarLibrary";
-			sourceTree = "<group>";
-		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		58798681854B15FDE9B1E97E72A8C9A4 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				74D83C401194E57A587B5824B5115533 /* PureLayout */,
-				A1000C6EC172BA15B3830742C86AD24C /* SGSegmentedProgressBarLibrary */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		74D83C401194E57A587B5824B5115533 /* PureLayout */ = {
-			isa = PBXGroup;
-			children = (
-				383ED008F18C38B2B91DC2D733100C03 /* ALView+PureLayout.h */,
-				FE710D04928D44000DD31AAFDC39152B /* ALView+PureLayout.m */,
-				CC38ABC680CD6684173EDC5F20E80389 /* NSArray+PureLayout.h */,
-				72ECCFEE39B05235B5EBF5B601DC22BB /* NSArray+PureLayout.m */,
-				C93D9869906488D09BB46DA6A43433E3 /* NSLayoutConstraint+PureLayout.h */,
-				B8BAF1826525577AF9791AA30B7A9D8F /* NSLayoutConstraint+PureLayout.m */,
-				5C37EF2B0AA335359C22EB508A26D795 /* PureLayout.h */,
-				0BB2B3F4AA4B6381C7D4D87E908F4738 /* PureLayout+Internal.h */,
-				4F5E437072DF5671B06FEA4DF914D74D /* PureLayoutDefines.h */,
-				BC0FE3B33A3C3311966E1B97617D0653 /* Support Files */,
-			);
-			name = PureLayout;
-			path = PureLayout;
-			sourceTree = "<group>";
-		};
-		A1000C6EC172BA15B3830742C86AD24C /* SGSegmentedProgressBarLibrary */ = {
-			isa = PBXGroup;
-			children = (
-				2F1E521B3A9017834C2B08B8A27A514F /* Extensions.swift */,
-				79BDB36BFE250F027D58F8A566EA0C7C /* SGSegmentedProgressBar.swift */,
-				9F6226251B7F4563DA6A4FA9ED871E2F /* SGSegmentedProgressBarProtocols.swift */,
-				1C79057081E652EEE40255476A33461C /* Support Files */,
-			);
-			name = SGSegmentedProgressBarLibrary;
-			path = SGSegmentedProgressBarLibrary;
-			sourceTree = "<group>";
-		};
-		BC0FE3B33A3C3311966E1B97617D0653 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9A5A6C91944F957003EE36AF88BCF35C /* PureLayout.modulemap */,
-				86669E79FCAB1257DEFDAC77AF05D671 /* PureLayout-dummy.m */,
-				C8259BA69DF857F431438626BCDC83E6 /* PureLayout-Info.plist */,
-				3265662C130AE66358BEC86BF6BD1928 /* PureLayout-prefix.pch */,
-				13A84C59DB8482C32948BA38F531901A /* PureLayout-umbrella.h */,
-				6F4B1A5FAC48296BEE9A9E4B33239626 /* PureLayout.debug.xcconfig */,
-				D0A33A93FAF92190F87A8FA48B32555A /* PureLayout.release.xcconfig */,
+				22CCF5E2693EB304CD76E2C25CAE531C /* PureLayout.modulemap */,
+				21D0C8716AE7D203D745C9BF99F573CE /* PureLayout-dummy.m */,
+				EE261A5E3B300E20E5A1C427B9B54C91 /* PureLayout-Info.plist */,
+				B76FFE12239B77608DBAD68F195F7779 /* PureLayout-prefix.pch */,
+				3A573C915EF697477DBEB173BD68DE73 /* PureLayout-umbrella.h */,
+				F1F1E63A89B2337EC866A83B37ED37DA /* PureLayout.debug.xcconfig */,
+				DA8094D3E93AE9238F7BFCBD748E7FFF /* PureLayout.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/PureLayout";
 			sourceTree = "<group>";
 		};
-		C679BBA8222689FF295532F4E195E629 /* Products */ = {
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A651368EF97F3D9B9BAA0C0FD537DD81 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1ADFD84BDAA3A543C99E35EBE2EC7D03 /* SGSegmentedProgressBarLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				42A729D0FEDB9E6F053FAAFF862BA569 /* Extensions.swift */,
+				ED599C5DCE09303E90643ACCE772CBAB /* SGSegmentedProgressBar.swift */,
+				1A79A45FDE08A61F2B2AAFADB0115C1B /* SGSegmentedProgressBarProtocols.swift */,
+				2D3AB0104F03164EB103EC8804B8DB94 /* Support Files */,
+			);
+			name = SGSegmentedProgressBarLibrary;
+			path = SGSegmentedProgressBarLibrary;
+			sourceTree = "<group>";
+		};
+		29561C1938FB9A5B4E4D96C7CE3EA9DE /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				9DFBC05B473F80FD3F66C77B0495E6A1 /* Reachability.h */,
+				B1AD45A27B3E5CA03FA5D15810A0FA44 /* Reachability.m */,
+				BDD4BABE11D899671793A1FF3B34064D /* Support Files */,
+			);
+			name = Reachability;
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		2D3AB0104F03164EB103EC8804B8DB94 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				167D7BE7BFAEB1FDEC3D5DBEA4201985 /* SGSegmentedProgressBarLibrary.modulemap */,
+				AE7A957FE01B778D9B4E8E59727D56AE /* SGSegmentedProgressBarLibrary-dummy.m */,
+				D26A102F2F3D707A1FEBDA9A5BFA7315 /* SGSegmentedProgressBarLibrary-Info.plist */,
+				D91FBEB7B2398D0DDF6632716780FECB /* SGSegmentedProgressBarLibrary-prefix.pch */,
+				F44989626A701397C178679588E9B2F2 /* SGSegmentedProgressBarLibrary-umbrella.h */,
+				0767CE3F41E24FDBAA25CC07D71669C7 /* SGSegmentedProgressBarLibrary.debug.xcconfig */,
+				01615F6E192DEA59D431EF779C05760E /* SGSegmentedProgressBarLibrary.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SGSegmentedProgressBarLibrary";
+			sourceTree = "<group>";
+		};
+		5712CA62B6009380AADD9E31B282A5B3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				532564DD37E6D3BF9BAC19C2EC6F5AF3 /* Pods_QuizApp.framework */,
 				E4E7B3DD46ABB0DBBB56BD5AE90E4911 /* PureLayout.framework */,
+				400FF55D0451E7A8F33A3D0D3E11C1B9 /* Reachability.framework */,
 				2392A3758705DC2E177D903DE43E6247 /* SGSegmentedProgressBarLibrary.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		694E4563403598E3BFE6B846F654B5E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B02F976EA6B8F6DEC7A6CA4160180F43 /* PureLayout */,
+				29561C1938FB9A5B4E4D96C7CE3EA9DE /* Reachability */,
+				1ADFD84BDAA3A543C99E35EBE2EC7D03 /* SGSegmentedProgressBarLibrary */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A651368EF97F3D9B9BAA0C0FD537DD81 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				30453446C5310EA114B978294858C9A5 /* Foundation.framework */,
+				18DE96DC511BD1CE643E8E9A8CE72374 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B02F976EA6B8F6DEC7A6CA4160180F43 /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				1016B4D27C723F59A0BA81D8C106A197 /* ALView+PureLayout.h */,
+				9EF6D077023A29B78D3C811C58C5448C /* ALView+PureLayout.m */,
+				590361D43B3B98858E92166A5ABBA426 /* NSArray+PureLayout.h */,
+				5A4D3B49A9D3E7157EB9DBEAB6584902 /* NSArray+PureLayout.m */,
+				763FC415E70747528005462314C207C5 /* NSLayoutConstraint+PureLayout.h */,
+				AF4B04263CC27F38543493689C84ACCD /* NSLayoutConstraint+PureLayout.m */,
+				670CE8FCD69B32D113D9409EB671E0FF /* PureLayout.h */,
+				4C0A75C5B08365EB2027AE0CE22D0059 /* PureLayout+Internal.h */,
+				6C928D59B98627D9A3580268F72E15D5 /* PureLayoutDefines.h */,
+				0B046C0F84E754C78B6CAEFE680E140E /* Support Files */,
+			);
+			name = PureLayout;
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
+		BDD4BABE11D899671793A1FF3B34064D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AADD67FBBAF569A6F2A9B78E6F2D40A9 /* Reachability.modulemap */,
+				B8790A1F5E93827EAB2E7AA27A5B64B0 /* Reachability-dummy.m */,
+				DCC0A9771D29AAB3C03A5C234570D202 /* Reachability-Info.plist */,
+				7E40C58A55A6B81B16D655C7CEC6C3C1 /* Reachability-prefix.pch */,
+				67C1DEB6940AFF42390EDDB71240C5E6 /* Reachability-umbrella.h */,
+				219A783FF962E7939E9A8EB8E6C04CA7 /* Reachability.debug.xcconfig */,
+				289214526705D9EAB48D6B5E93B768C2 /* Reachability.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Reachability";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				58798681854B15FDE9B1E97E72A8C9A4 /* Pods */,
-				C679BBA8222689FF295532F4E195E629 /* Products */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				694E4563403598E3BFE6B846F654B5E9 /* Pods */,
+				5712CA62B6009380AADD9E31B282A5B3 /* Products */,
 				DC06AD61ED3C12DF15CD6DCF5B8EFA58 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		DC06AD61ED3C12DF15CD6DCF5B8EFA58 /* Targets Support Files */ = {
@@ -266,11 +328,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A34B7A6DAF506210E4029F0067EA0E4 /* Headers */ = {
+		5482B92B4041F2CA2F8B9666AD4DA1DB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71FC3D9B5AB85F25B264823B4A0DA652 /* Pods-QuizApp-umbrella.h in Headers */,
+				5D614BBA844FCC1AED0AA36E5A819050 /* Reachability-umbrella.h in Headers */,
+				1FDF6FD7CF96B315FF19342F739EE607 /* Reachability.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +342,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE8602B4CFD5760B21CFFE1B9A21B119 /* SGSegmentedProgressBarLibrary-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE82B11024A4BA6BF6F3585ED3791235 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C01184A43CD845435A8411017C786B8 /* Pods-QuizApp-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,18 +376,19 @@
 		};
 		3B42A8F6148E5F2773D4A1B11D59DB6D /* Pods-QuizApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B10CFC77B3DEA8EEE8591AD78B1D120C /* Build configuration list for PBXNativeTarget "Pods-QuizApp" */;
+			buildConfigurationList = FD400F9BB942D450FFD6340B26F35D49 /* Build configuration list for PBXNativeTarget "Pods-QuizApp" */;
 			buildPhases = (
-				5A34B7A6DAF506210E4029F0067EA0E4 /* Headers */,
-				0C18572C309DFA877857C4F7C43C1BD8 /* Sources */,
-				995AE398D6463F60D3C6FEB1A86E5D74 /* Frameworks */,
-				9C458E15FA34B14F5D459A5CBFDC63A6 /* Resources */,
+				CE82B11024A4BA6BF6F3585ED3791235 /* Headers */,
+				5281DB465C4A5FDDC368C2A025D111A3 /* Sources */,
+				EF0C5D5FF1984CCCEF5772CBFCEA4716 /* Frameworks */,
+				589E7F011B90A82EAD185A11151D6D9E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4434CBCA1FA84C0D9918FFFD00B2DC93 /* PBXTargetDependency */,
-				7B6541C55CE08864E3D419F16E981D3B /* PBXTargetDependency */,
+				46B974FCDB0C54C1C98097CCE9FB227C /* PBXTargetDependency */,
+				1C60F908183801D0E65C90E7A479BDB2 /* PBXTargetDependency */,
+				8C1935BB8545C28FDC8397ACB53E186F /* PBXTargetDependency */,
 			);
 			name = "Pods-QuizApp";
 			productName = "Pods-QuizApp";
@@ -341,6 +413,24 @@
 			productReference = 2392A3758705DC2E177D903DE43E6247 /* SGSegmentedProgressBarLibrary.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		CAA047C0F5E4106F3904E8497FA17F97 /* Reachability */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F32CA1ECBBAD93DE1A0B2999C38EABC5 /* Build configuration list for PBXNativeTarget "Reachability" */;
+			buildPhases = (
+				5482B92B4041F2CA2F8B9666AD4DA1DB /* Headers */,
+				72E70FE6F073379B3A96AAB861E0231E /* Sources */,
+				F8E2491E56FE9C8E833648DF3B4AD9DF /* Frameworks */,
+				2FBB80F8954F668EBC04240928EB2118 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reachability;
+			productName = Reachability;
+			productReference = 400FF55D0451E7A8F33A3D0D3E11C1B9 /* Reachability.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -359,19 +449,34 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = C679BBA8222689FF295532F4E195E629 /* Products */;
+			productRefGroup = 5712CA62B6009380AADD9E31B282A5B3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				3B42A8F6148E5F2773D4A1B11D59DB6D /* Pods-QuizApp */,
 				06F5CDD6235E25837519792853B145A1 /* PureLayout */,
+				CAA047C0F5E4106F3904E8497FA17F97 /* Reachability */,
 				A39044569D9678AB9A64F9E4139C45B7 /* SGSegmentedProgressBarLibrary */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2FBB80F8954F668EBC04240928EB2118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		34B921FAE08231CA614AEBD0BF2E816F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		589E7F011B90A82EAD185A11151D6D9E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -385,21 +490,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C458E15FA34B14F5D459A5CBFDC63A6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0C18572C309DFA877857C4F7C43C1BD8 /* Sources */ = {
+		5281DB465C4A5FDDC368C2A025D111A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A2E8047ABA614C459F199BCE29410BC /* Pods-QuizApp-dummy.m in Sources */,
+				38D84D9987D58879019DF209E7D189A0 /* Pods-QuizApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72E70FE6F073379B3A96AAB861E0231E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92666F5E4C7D1E283EE3C703E69D5CB0 /* Reachability-dummy.m in Sources */,
+				165816E10F031A2BB600A35ACB23C61B /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,24 +535,30 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4434CBCA1FA84C0D9918FFFD00B2DC93 /* PBXTargetDependency */ = {
+		1C60F908183801D0E65C90E7A479BDB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Reachability;
+			target = CAA047C0F5E4106F3904E8497FA17F97 /* Reachability */;
+			targetProxy = 696DF52A6F00321B280D84C5E3CEEB44 /* PBXContainerItemProxy */;
+		};
+		46B974FCDB0C54C1C98097CCE9FB227C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PureLayout;
 			target = 06F5CDD6235E25837519792853B145A1 /* PureLayout */;
-			targetProxy = 948F2EFEE9CB3F2E32C0C5B5A3A7D7EE /* PBXContainerItemProxy */;
+			targetProxy = 90E7B940663128C11028FE3FAAD4ECA5 /* PBXContainerItemProxy */;
 		};
-		7B6541C55CE08864E3D419F16E981D3B /* PBXTargetDependency */ = {
+		8C1935BB8545C28FDC8397ACB53E186F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SGSegmentedProgressBarLibrary;
 			target = A39044569D9678AB9A64F9E4139C45B7 /* SGSegmentedProgressBarLibrary */;
-			targetProxy = EF02454DE8255BA2C580C092B8198C6F /* PBXContainerItemProxy */;
+			targetProxy = 1F1CDB7FA1B6D0B2E3A5C9F3181DB189 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0BF74671749B9EC575A614A19A961622 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F4B1A5FAC48296BEE9A9E4B33239626 /* PureLayout.debug.xcconfig */;
+			baseConfigurationReference = F1F1E63A89B2337EC866A83B37ED37DA /* PureLayout.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -479,7 +592,7 @@
 		};
 		15E6720A421C5A556E8008E359C0B602 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0A33A93FAF92190F87A8FA48B32555A /* PureLayout.release.xcconfig */;
+			baseConfigurationReference = DA8094D3E93AE9238F7BFCBD748E7FFF /* PureLayout.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -514,7 +627,7 @@
 		};
 		56F42F709E2B4547830FABC7CE911607 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 709D09A0BF4536435B780D96418B79BF /* SGSegmentedProgressBarLibrary.debug.xcconfig */;
+			baseConfigurationReference = 0767CE3F41E24FDBAA25CC07D71669C7 /* SGSegmentedProgressBarLibrary.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -674,7 +787,7 @@
 			};
 			name = Debug;
 		};
-		7F78C3AADA1EADA981561F4337B1946D /* Release */ = {
+		890D6BBD08BFABDDCD40F7925E12D676 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1017E0DBED64F7C37A9F49909E6E16EB /* Pods-QuizApp.release.xcconfig */;
 			buildSettings = {
@@ -714,7 +827,7 @@
 		};
 		954797CCE3F7A3C399587F8F41847919 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF5A54A87436C5FC98D7805F20C1FF28 /* SGSegmentedProgressBarLibrary.release.xcconfig */;
+			baseConfigurationReference = 01615F6E192DEA59D431EF779C05760E /* SGSegmentedProgressBarLibrary.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -747,7 +860,42 @@
 			};
 			name = Release;
 		};
-		B48702AFDDB5F2AB5D613673E75DD9E1 /* Debug */ = {
+		B2D2B31E7A54EF4C97EEE40D2B781967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 289214526705D9EAB48D6B5E93B768C2 /* Reachability.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Reachability/Reachability-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Reachability/Reachability.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4AA41ED23BCC99A49C5E1FB5556F9D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2415DEA59F6EB1B101FFD286F196C2B3 /* Pods-QuizApp.debug.xcconfig */;
 			buildSettings = {
@@ -784,6 +932,40 @@
 			};
 			name = Debug;
 		};
+		F46FB54084CFB7D073BB3101F75F5AD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 219A783FF962E7939E9A8EB8E6C04CA7 /* Reachability.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Reachability/Reachability-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Reachability/Reachability.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -805,20 +987,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B10CFC77B3DEA8EEE8591AD78B1D120C /* Build configuration list for PBXNativeTarget "Pods-QuizApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B48702AFDDB5F2AB5D613673E75DD9E1 /* Debug */,
-				7F78C3AADA1EADA981561F4337B1946D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		BCD1FCE7895E0734BE340EBA7F7415CC /* Build configuration list for PBXNativeTarget "SGSegmentedProgressBarLibrary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				56F42F709E2B4547830FABC7CE911607 /* Debug */,
 				954797CCE3F7A3C399587F8F41847919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F32CA1ECBBAD93DE1A0B2999C38EABC5 /* Build configuration list for PBXNativeTarget "Reachability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46FB54084CFB7D073BB3101F75F5AD2 /* Debug */,
+				B2D2B31E7A54EF4C97EEE40D2B781967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD400F9BB942D450FFD6340B26F35D49 /* Build configuration list for PBXNativeTarget "Pods-QuizApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4AA41ED23BCC99A49C5E1FB5556F9D8 /* Debug */,
+				890D6BBD08BFABDDCD40F7925E12D676 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
